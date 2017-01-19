@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>테이블 또는 셀의 테두리선 지정하기</title>
+<style type="text/css">
+	table {
+		border-collapse: collapse; /*border 사이의 간격 없앰*/
+		border-top: 2px solid red;
+		border-bottom: 1px solid #999;
+	}
+	
+	table th, td {
+		margin: 0;
+		padding: 1px solid red;
+	}
+	
+	table th {
+		background-color: red;
+		color: #FFF;
+		border-bottom: 2px solid red;
+	}
+	
+	table td {
+		border-bottom: 1px dotted pink;
+	}
+	table tr:hover {
+		background-color: green;
+		cursor: pointer; cursor: hand;
+	}
+</style>
+</head>
+<body>
+	<div align="center">
+		<table> <!-- 테이블의 시작 -->
+		<caption>표 제목은 caption 태그에</caption> <!-- 표 제목 -->
+		<tr>
+			<th>제목은 </th> <th>th 태그에 </th> <th>제목은 </th>
+		</tr>
+		<tr>
+			<td>첫 번째 줄 첫 번째 칸</td>
+			<td>첫 번째 줄 두 번째 칸</td>
+			<td>첫 번째 줄 세 번째 칸</td>
+		</tr>
+
+
+		<tr>
+			<td>두 번째 줄 첫 번째 칸</td>
+			<td>두 번째 줄 두 번째 칸</td>
+			<td>두 번째 줄 세 번째 칸</td>
+		</tr>
+		<tr>L130n1557_p0470b01║大方廣佛華嚴經疏鈔會本第十一之一　假七</tr>
+		<tr>L130n1557_p0470b02║　　　　唐于闐國三藏沙門實叉難陀　譯</tr>
+		</table>
+	</div>
+	
+</body>
+</html>
